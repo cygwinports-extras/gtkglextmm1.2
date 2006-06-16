@@ -1,0 +1,4 @@
+category: Gnome
+requires: cygwin gtkglext-x11 gtkmm24
+sdesc: "C++ bindings for the GtkGLExt libraries (runtime)"
+ldesc: "C++ bindings for the GtkGLExt libraries"

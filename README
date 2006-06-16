@@ -1,0 +1,399 @@
+gtkglextmm12
+------------------------------------------
+C++ bindings for the GtkGLExt libraries.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  gtkglext-x11-1.2.0-1
+  gtkmm24-2.8.5-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  bison-2.1-1
+  cygport-0.1.92-1
+  flex-2.5.4a-4
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  gtk-doc-1.5-1
+  intltool-0.34.2-1
+  libtool1.5-1.5.22-1
+  make-3.80-1
+  pkg-config-0.20-1
+  sed-4.1.4-1
+
+Canonical website:
+  http://gtkglext.sourceforge.net/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/gtkglext/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gtkglextmm12-1.2.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gtkglextmm12-1.2.0-X.cygport all
+
+This will create:
+  /usr/src/gtkglextmm12-1.2.0-X-src.tar.bz2
+  /usr/src/gtkglextmm12-1.2.0-X.tar.bz2
+  /usr/src/gtkglextmm12-devel-1.2.0-X.tar.bz2
+  /usr/src/gtkglextmm12-doc-1.2.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the main package:
+
+  /usr/bin/cyggdkglextmm-x11-1.2-0.dll
+  /usr/bin/cyggtkglextmm-x11-1.2-0.dll
+  /usr/share/doc/Cygwin/gtkglextmm12-1.2.0.README
+  /usr/share/doc/gtkglextmm12-1.2.0/AUTHORS
+  /usr/share/doc/gtkglextmm12-1.2.0/COPYING
+  /usr/share/doc/gtkglextmm12-1.2.0/COPYING.LIB
+  /usr/share/doc/gtkglextmm12-1.2.0/ChangeLog
+  /usr/share/doc/gtkglextmm12-1.2.0/INSTALL
+  /usr/share/doc/gtkglextmm12-1.2.0/NEWS
+  /usr/share/doc/gtkglextmm12-1.2.0/README
+
+Files included in the devel package:
+
+  /usr/include/gtkglextmm-1.2/gdkglmm.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/config.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/context.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/defs.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/drawable.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/font.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/init.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/pixmap.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/pixmapext.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/private/config_p.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/private/context_p.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/private/drawable_p.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/private/pixmap_p.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/private/tokens_p.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/private/window_p.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/query.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/tokens.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/version.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/window.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/windowext.h
+  /usr/include/gtkglextmm-1.2/gdkmm/gl/wrap_init.h
+  /usr/include/gtkglextmm-1.2/gtkglmm.h
+  /usr/include/gtkglextmm-1.2/gtkmm/gl/defs.h
+  /usr/include/gtkglextmm-1.2/gtkmm/gl/drawingarea.h
+  /usr/include/gtkglextmm-1.2/gtkmm/gl/init.h
+  /usr/include/gtkglextmm-1.2/gtkmm/gl/version.h
+  /usr/include/gtkglextmm-1.2/gtkmm/gl/widget.h
+  /usr/lib/gtkglextmm-1.2/include/gdkglextmm-config.h
+  /usr/lib/gtkglextmm-1.2/proc/m4/convert.m4
+  /usr/lib/gtkglextmm-1.2/proc/m4/convert_gdkglext.m4
+  /usr/lib/gtkglextmm-1.2/proc/m4/convert_gtkglext.m4
+  /usr/lib/libgdkglextmm-x11-1.2.dll.a
+  /usr/lib/libgdkglextmm-x11-1.2.la
+  /usr/lib/libgtkglextmm-x11-1.2.dll.a
+  /usr/lib/libgtkglextmm-x11-1.2.la
+  /usr/lib/pkgconfig/gdkglextmm-1.2.pc
+  /usr/lib/pkgconfig/gdkglextmm-x11-1.2.pc
+  /usr/lib/pkgconfig/gtkglextmm-1.2.pc
+  /usr/lib/pkgconfig/gtkglextmm-x11-1.2.pc
+  /usr/share/aclocal/gtkglextmm-1.2.m4
+
+Files included in the doc package:
+
+  /usr/share/doc/gtkglextmm-1.2/html/annotated.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Config-members.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Config.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Context-members.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Context.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Drawable-members.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Drawable.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Drawable__inherit__graph.map
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Drawable__inherit__graph.md5
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Drawable__inherit__graph.png
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Font-members.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Font.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Pixmap-members.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Pixmap.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1PixmapExtProxy-members.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1PixmapExtProxy.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Pixmap__coll__graph.map
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Pixmap__coll__graph.md5
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Pixmap__coll__graph.png
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Pixmap__inherit__graph.map
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Pixmap__inherit__graph.md5
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Pixmap__inherit__graph.png
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Window-members.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Window.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1WindowExtProxy-members.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1WindowExtProxy.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Window__coll__graph.map
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Window__coll__graph.md5
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Window__coll__graph.png
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Window__inherit__graph.map
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Window__inherit__graph.md5
+  /usr/share/doc/gtkglextmm-1.2/html/classGdk_1_1GL_1_1Window__inherit__graph.png
+  /usr/share/doc/gtkglextmm-1.2/html/classGtk_1_1GL_1_1DrawingArea-members.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGtk_1_1GL_1_1DrawingArea.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGtk_1_1GL_1_1DrawingArea__coll__graph.map
+  /usr/share/doc/gtkglextmm-1.2/html/classGtk_1_1GL_1_1DrawingArea__coll__graph.md5
+  /usr/share/doc/gtkglextmm-1.2/html/classGtk_1_1GL_1_1DrawingArea__coll__graph.png
+  /usr/share/doc/gtkglextmm-1.2/html/classGtk_1_1GL_1_1DrawingArea__inherit__graph.map
+  /usr/share/doc/gtkglextmm-1.2/html/classGtk_1_1GL_1_1DrawingArea__inherit__graph.md5
+  /usr/share/doc/gtkglextmm-1.2/html/classGtk_1_1GL_1_1DrawingArea__inherit__graph.png
+  /usr/share/doc/gtkglextmm-1.2/html/classGtk_1_1GL_1_1Widget-members.html
+  /usr/share/doc/gtkglextmm-1.2/html/classGtk_1_1GL_1_1Widget.html
+  /usr/share/doc/gtkglextmm-1.2/html/classes.html
+  /usr/share/doc/gtkglextmm-1.2/html/config_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/config_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/config_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/config_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/config_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/config_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/config_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/config_8h__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/context_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/context_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/context_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/context_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/context_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/context_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/context_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/context_8h__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/dir_000000.html
+  /usr/share/doc/gtkglextmm-1.2/html/dir_000000_dep.map
+  /usr/share/doc/gtkglextmm-1.2/html/dir_000000_dep.png
+  /usr/share/doc/gtkglextmm-1.2/html/dir_000001.html
+  /usr/share/doc/gtkglextmm-1.2/html/dir_000001_dep.map
+  /usr/share/doc/gtkglextmm-1.2/html/dir_000001_dep.png
+  /usr/share/doc/gtkglextmm-1.2/html/dir_000002.html
+  /usr/share/doc/gtkglextmm-1.2/html/dir_000002_dep.map
+  /usr/share/doc/gtkglextmm-1.2/html/dir_000002_dep.png
+  /usr/share/doc/gtkglextmm-1.2/html/dir_000003.html
+  /usr/share/doc/gtkglextmm-1.2/html/dir_000003_000000.html
+  /usr/share/doc/gtkglextmm-1.2/html/dir_000003_dep.map
+  /usr/share/doc/gtkglextmm-1.2/html/dir_000003_dep.png
+  /usr/share/doc/gtkglextmm-1.2/html/dirs.html
+  /usr/share/doc/gtkglextmm-1.2/html/doxygen.css
+  /usr/share/doc/gtkglextmm-1.2/html/doxygen.png
+  /usr/share/doc/gtkglextmm-1.2/html/drawable_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/drawable_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/drawable_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/drawable_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/drawable_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/drawable_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/drawable_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/drawable_8h__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/drawingarea_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/drawingarea_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/drawingarea_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/drawingarea_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/drawingarea_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/drawingarea_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/drawingarea_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/drawingarea_8h__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/examples.html
+  /usr/share/doc/gtkglextmm-1.2/html/files.html
+  /usr/share/doc/gtkglextmm-1.2/html/font_8cc-example.html
+  /usr/share/doc/gtkglextmm-1.2/html/font_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/font_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/font_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/font_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/font_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/font_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/font_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/font_8h__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/functions.html
+  /usr/share/doc/gtkglextmm-1.2/html/functions_func.html
+  /usr/share/doc/gtkglextmm-1.2/html/functions_rela.html
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2defs_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2defs_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2defs_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2defs_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2defs_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2defs_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2defs_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2defs_8h__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2init_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2init_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2init_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2init_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2init_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2version_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2version_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2version_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2version_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2version_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2version_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2version_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglext_2gdkmm_2gl_2version_8h__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglmm_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglmm_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglmm_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglmm_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglmm_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglmm_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglmm_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/gdkglmm_8h__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/gears_8cc-example.html
+  /usr/share/doc/gtkglextmm-1.2/html/globals.html
+  /usr/share/doc/gtkglextmm-1.2/html/globals_defs.html
+  /usr/share/doc/gtkglextmm-1.2/html/globals_enum.html
+  /usr/share/doc/gtkglextmm-1.2/html/globals_eval.html
+  /usr/share/doc/gtkglextmm-1.2/html/globals_func.html
+  /usr/share/doc/gtkglextmm-1.2/html/globals_vars.html
+  /usr/share/doc/gtkglextmm-1.2/html/graph_legend.dot
+  /usr/share/doc/gtkglextmm-1.2/html/graph_legend.html
+  /usr/share/doc/gtkglextmm-1.2/html/graph_legend.png
+  /usr/share/doc/gtkglextmm-1.2/html/group__GLDrawables.html
+  /usr/share/doc/gtkglextmm-1.2/html/group__gdkmm__glEnums.html
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2defs_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2defs_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2defs_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2defs_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2defs_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2defs_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2defs_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2defs_8h__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2init_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2init_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2init_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2init_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2init_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2version_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2version_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2version_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2version_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2version_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2version_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2version_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglext_2gtkmm_2gl_2version_8h__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglmm_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglmm_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglmm_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglmm_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/gtkglmm_8h__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/hierarchy.html
+  /usr/share/doc/gtkglextmm-1.2/html/index.html
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__0.map
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__0.md5
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__0.png
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__1.map
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__1.md5
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__1.png
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__2.map
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__2.md5
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__2.png
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__3.map
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__3.md5
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__3.png
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__4.map
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__4.md5
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__4.png
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__5.map
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__5.md5
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__5.png
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__6.map
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__6.md5
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__6.png
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__7.map
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__7.md5
+  /usr/share/doc/gtkglextmm-1.2/html/inherit__graph__7.png
+  /usr/share/doc/gtkglextmm-1.2/html/inherits.html
+  /usr/share/doc/gtkglextmm-1.2/html/logo_8cc-example.html
+  /usr/share/doc/gtkglextmm-1.2/html/logo_8h-example.html
+  /usr/share/doc/gtkglextmm-1.2/html/modules.html
+  /usr/share/doc/gtkglextmm-1.2/html/namespaceGdk.html
+  /usr/share/doc/gtkglextmm-1.2/html/namespaceGdk_1_1GL.html
+  /usr/share/doc/gtkglextmm-1.2/html/namespaceGlib.html
+  /usr/share/doc/gtkglextmm-1.2/html/namespaceGtk.html
+  /usr/share/doc/gtkglextmm-1.2/html/namespaceGtk_1_1GL.html
+  /usr/share/doc/gtkglextmm-1.2/html/namespacemembers.html
+  /usr/share/doc/gtkglextmm-1.2/html/namespacemembers_enum.html
+  /usr/share/doc/gtkglextmm-1.2/html/namespacemembers_eval.html
+  /usr/share/doc/gtkglextmm-1.2/html/namespacemembers_func.html
+  /usr/share/doc/gtkglextmm-1.2/html/namespacemembers_vars.html
+  /usr/share/doc/gtkglextmm-1.2/html/namespaces.html
+  /usr/share/doc/gtkglextmm-1.2/html/pixmap-mixed_8cc-example.html
+  /usr/share/doc/gtkglextmm-1.2/html/pixmap_8cc-example.html
+  /usr/share/doc/gtkglextmm-1.2/html/pixmap_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/pixmap_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/pixmap_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/pixmap_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/pixmap_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/pixmap_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/pixmap_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/pixmap_8h__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/pixmapext_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/pixmapext_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/pixmapext_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/pixmapext_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/pixmapext_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/pixmapext_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/pixmapext_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/pixmapext_8h__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/query_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/query_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/query_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/query_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/query_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/query_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/query_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/query_8h__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/shapes_8cc-example.html
+  /usr/share/doc/gtkglextmm-1.2/html/shapes_8h-example.html
+  /usr/share/doc/gtkglextmm-1.2/html/share-lists_8cc-example.html
+  /usr/share/doc/gtkglextmm-1.2/html/simple-darea_8cc-example.html
+  /usr/share/doc/gtkglextmm-1.2/html/simple-mixed_8cc-example.html
+  /usr/share/doc/gtkglextmm-1.2/html/simple_8cc-example.html
+  /usr/share/doc/gtkglextmm-1.2/html/tokens_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/tokens_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/tokens_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/tokens_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/tokens_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/tokens_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/tokens_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/tokens_8h__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/widget_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/widget_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/widget_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/widget_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/widget_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/widget_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/widget_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/widget_8h__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/window_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/window_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/window_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/window_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/window_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/window_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/window_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/window_8h__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/windowext_8h-source.html
+  /usr/share/doc/gtkglextmm-1.2/html/windowext_8h.html
+  /usr/share/doc/gtkglextmm-1.2/html/windowext_8h__dep__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/windowext_8h__dep__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/windowext_8h__dep__incl.png
+  /usr/share/doc/gtkglextmm-1.2/html/windowext_8h__incl.map
+  /usr/share/doc/gtkglextmm-1.2/html/windowext_8h__incl.md5
+  /usr/share/doc/gtkglextmm-1.2/html/windowext_8h__incl.png
+
+------------------
+
+Port Notes:
+
+----- version 1.2.0-1 -----
+Stable release.
+
+----- version 1.1.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
