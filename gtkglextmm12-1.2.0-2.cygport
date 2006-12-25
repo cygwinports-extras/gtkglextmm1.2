@@ -1,0 +1,15 @@
+ORIG_PN=${PN%1[02]}
+
+inherit gnome2
+
+DESCRIPTION="C++ bindings for GtkGLExt"
+HOMEPAGE="http://gtkglext.sourceforge.net/"
+SRC_URI="mirror://sourceforge/gtkglext/${ORIG_PN}-${PV}.tar.bz2"
+
+CYGCONF_ARGS="--with-gdktarget=x11"
+
+PKG_NAMES="${PN} ${PN}-devel ${PN}-doc"
+PKG_HINTS="setup devel doc"
+PKG_CONTENTS[0]="usr/bin/ usr/share/doc/Cygwin/ usr/share/doc/${P}/"
+PKG_CONTENTS[1]='usr/include/ usr/lib/ usr/share/aclocal/'
+PKG_CONTENTS[2]="usr/share/doc/${ORIG_PN}-1.2"
