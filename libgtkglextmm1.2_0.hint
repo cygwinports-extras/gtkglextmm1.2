@@ -1,0 +1,5 @@
+category: Gnome
+requires: cygwin libatk1.0_0 libglib2.0_0 libglibmm2.4_1 libgtkglext1.0_0 libgtkmm2.4_1 libpangomm1.4_1 libsigc2.0_0
+external-source: gtkglextmm1.2
+sdesc: "C++ bindings for the GtkGLExt libraries (runtime)"
+ldesc: "C++ bindings for the GtkGLExt libraries"

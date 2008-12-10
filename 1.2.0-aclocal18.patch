@@ -1,16 +1,5 @@
---- origsrc/gtkglextmm-1.2.0/Makefile.am	2003-08-15 06:39:33.000000000 -0500
-+++ src/gtkglextmm-1.2.0/Makefile.am	2006-12-24 22:19:32.731000000 -0600
-@@ -4,6 +4,8 @@
- SUBDIRS = tools gdkglext gtkglext m4macros docs
- DIST_SUBDIRS = $(SUBDIRS) examples
- 
-+ACLOCAL_AMFLAGS = -I m4macros
-+
- EXTRA_DIST = \
- 	README.win32			\
- 	ChangeLog.pre-1-0		\
 --- origsrc/gtkglextmm-1.2.0/m4macros/gtkglextmm.m4	2004-05-18 01:29:34.000000000 -0500
-+++ src/gtkglextmm-1.2.0/m4macros/gtkglextmm.m4	2006-12-24 22:20:15.762250000 -0600
++++ src/gtkglextmm-1.2.0/m4macros/gtkglextmm.m4	2008-12-10 00:39:41.378000000 -0600
 @@ -222,7 +222,7 @@
  dnl AC_GTKGLEXTMM_SUPPORTS_MULTIHEAD([ACTION-IF-SUPPORTED [, ACTION-IF-NOT-SUPPORTED]])
  dnl Checks whether gtkglextmm supports multihead.

@@ -1,0 +1,41 @@
+--- origsrc/gtkglextmm-1.2.0/examples/Makefile.am	2003-08-15 06:39:33.000000000 -0500
++++ src/gtkglextmm-1.2.0/examples/Makefile.am	2008-12-09 23:05:47.956125000 -0600
+@@ -11,10 +11,7 @@
+ 	-I$(top_builddir)/gtkglext	\
+ 	$(GTKGLEXTMM_DEBUG_FLAGS)	\
+ 	$(GTKGLEXTMM_DEP_CFLAGS)	\
+-	-DG_DISABLE_DEPRECATED		\
+-	-DGDK_DISABLE_DEPRECATED	\
+-	-DGDK_PIXBUF_DISABLE_DEPRECATED	\
+-	-DGTK_DISABLE_DEPRECATED
++	$(NULL)
+ 
+ DEPS = \
+ 	$(top_builddir)/gdkglext/gdkmm/gl/$(gdkglextmm_targetlib)	\
+--- origsrc/gtkglextmm-1.2.0/gdkglext/gdkmm/gl/Makefile.am	2004-05-18 01:27:09.000000000 -0500
++++ src/gtkglextmm-1.2.0/gdkglext/gdkmm/gl/Makefile.am	2008-12-09 23:22:05.237375000 -0600
+@@ -7,9 +7,7 @@
+ sublib_cflags = \
+ 	$(GDKGLEXTMM_DEP_CFLAGS)	\
+ 	-DGDKMM_GL_COMPILATION		\
+-	-DG_DISABLE_DEPRECATED		\
+-	-DGDK_DISABLE_DEPRECATED	\
+-	-DGDK_PIXBUF_DISABLE_DEPRECATED
++	$(NULL)
+ 
+ files_extra_h = \
+ 	defs.h		\
+--- origsrc/gtkglextmm-1.2.0/gtkglext/gtkmm/gl/Makefile.am	2004-05-18 01:27:09.000000000 -0500
++++ src/gtkglextmm-1.2.0/gtkglext/gtkmm/gl/Makefile.am	2008-12-09 23:22:26.206125000 -0600
+@@ -9,10 +9,7 @@
+ 	-I$(top_srcdir)/gdkglext	\
+ 	$(GTKGLEXTMM_DEP_CFLAGS)	\
+ 	-DGTKMM_GL_COMPILATION		\
+-	-DG_DISABLE_DEPRECATED		\
+-	-DGDK_DISABLE_DEPRECATED	\
+-	-DGDK_PIXBUF_DISABLE_DEPRECATED	\
+-	-DGTK_DISABLE_DEPRECATED
++	$(NULL)
+ 
+ files_extra_h = \
+ 	defs.h		\

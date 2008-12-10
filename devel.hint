@@ -1,5 +1,0 @@
-category: Gnome
-requires: cygwin gtkglext-x11-devel gtkmm24-devel
-external-source: gtkglextmm12
-sdesc: "C++ bindings for the GtkGLExt libraries (development)"
-ldesc: "C++ bindings for the GtkGLExt libraries"

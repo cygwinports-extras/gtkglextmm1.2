@@ -1,0 +1,19 @@
+inherit gtkmm
+
+DESCRIPTION="C++ bindings for GtkGLExt"
+HOMEPAGE="http://gtkglext.sourceforge.net/"
+SRC_URI="mirror://sourceforge/gtkglext/${ORIG_PN}-${PV}.tar.bz2"
+PATCH_URI="
+	1.2.0-deprecations.patch
+	1.2.0-aclocal18.patch
+"
+
+PKG_NAMES="${PN} lib${PN}_0 lib${PN}-devel lib${PN}-doc"
+libgtkglextmm1_2_0_CONTENTS="usr/bin/*-1.2-0.dll usr/share/doc/Cygwin/ usr/share/doc/${P}/"
+libgtkglextmm1_2_devel_CONTENTS='usr/include/ usr/lib/ usr/share/aclocal/'
+libgtkglextmm1_2_doc_CONTENTS="usr/share/doc/${ORIG_PN}-1.2/"
+
+DIFF_EXCLUDES="*.nsi"
+
+ACLOCAL_FLAGS="-I m4macros"
+CYGCONF_ARGS="--with-gdktarget=x11"

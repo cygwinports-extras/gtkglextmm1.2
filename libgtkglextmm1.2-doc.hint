@@ -1,4 +1,4 @@
 category: Gnome Doc
-external-source: gtkglextmm12
+external-source: gtkglextmm1.2
 sdesc: "C++ bindings for the GtkGLExt libraries (API documentation)"
 ldesc: "C++ bindings for the GtkGLExt libraries"
