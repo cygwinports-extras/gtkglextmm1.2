@@ -3,26 +3,28 @@ gtkglextmm1.2
 C++ bindings for the GtkGLExt libraries.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libatk1.0_0-2.14.3-1
-  libglib2.0_0-2.18.3-1
-  libglibmm2.4_1-2.18.1-1
-  libgtkglext1.0_0-1.2.0-2
-  libgtkmm2.4_1-2.14.3-1
-  libpangomm1.4_1-2.14.1-1
-  libsigc2.0_0-2.2.3-1
+  cygwin-1.7.0-44
+  libatk1.0_0-2.26.0-1
+  libgcc1-4.3.2-2
+  libglib2.0_0-2.20.0-1
+  libglibmm2.4_1-2.20.0-1
+  libgtkglext1.0_0-1.2.0-10
+  libgtkmm2.4_1-2.16.0-1
+  libpangomm1.4_1-2.24.0-1
+  libsigc2.0_0-2.2.3-10
+  libstdc++6-4.3.2-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.9-1.9.6-3
+  autoconf2.5-2.63-10
+  automake1.9-1.9.6-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gcc-g++-3.4.4-3
-  libtool-2.2.6a-1
-  make-3.81-1
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  libtool-2.2.6a-2
+  make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
 
@@ -54,13 +56,12 @@ Files included in the binary packages:
 (libgtkglextmm1.2_0)
   /usr/bin/cyggdkglextmm-x11-1.2-0.dll
   /usr/bin/cyggtkglextmm-x11-1.2-0.dll
-  /usr/share/doc/gtkglextmm1.2-1.2.0/AUTHORS
-  /usr/share/doc/gtkglextmm1.2-1.2.0/COPYING
-  /usr/share/doc/gtkglextmm1.2-1.2.0/COPYING.LIB
-  /usr/share/doc/gtkglextmm1.2-1.2.0/ChangeLog
-  /usr/share/doc/gtkglextmm1.2-1.2.0/INSTALL
-  /usr/share/doc/gtkglextmm1.2-1.2.0/NEWS
-  /usr/share/doc/gtkglextmm1.2-1.2.0/README
+  /usr/share/doc/gtkglextmm1.2/AUTHORS
+  /usr/share/doc/gtkglextmm1.2/COPYING
+  /usr/share/doc/gtkglextmm1.2/COPYING.LIB
+  /usr/share/doc/gtkglextmm1.2/ChangeLog
+  /usr/share/doc/gtkglextmm1.2/NEWS
+  /usr/share/doc/gtkglextmm1.2/README
 
 (libgtkglextmm1.2-devel)
   /usr/include/gtkglextmm-1.2/gdkglmm.h
@@ -111,17 +112,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 1.2.0-3 -----
-Rebuilt for modular X11.
-
------ version 1.2.0-2 -----
-Rebuilt to fix aclocal underquoted warning.
-
------ version 1.2.0-1 -----
-Stable release.
-
------ version 1.1.0-1 -----
-Initial release for Cygwin.
+----- version 1.2.0-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
